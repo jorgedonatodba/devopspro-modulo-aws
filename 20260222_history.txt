@@ -1,0 +1,508 @@
+    1  ls
+    2  ll
+    3  pwd
+    4  ip addr
+    5  sudo apt list ssh
+    6  sudo apt search ssh
+    7  ll
+    8  unzip -h
+    9  sudo install unzip -y
+   10  sudo apt install unzip -y
+   11  unzip -h
+   12  unzip -t swingbench25052023.zip 
+   13  unzip -h
+   14  unzip swingbench25052023.zip 
+   15  ll
+   16  cd swingbench/
+   17  ll
+   18  ls -ltra
+   19  cd ..
+   20  ls -ltra
+   21  vi .bashrc 
+   22  source .bashrc 
+   23  ls -ltra
+   24  ls -ltra --color=off
+   25  ls -ltra --color=no
+   26  cd swingbench/
+   27  ls -ltra --color=no
+   28  cat README.md 
+   29  exit
+   30  sudo apt list jdk
+   31  sudo apt search jdk
+   32  sudo apt install -y openjdk-17-jdk
+   33  pwd
+   34  i addr
+   35  ip addr
+   36  ll
+   37  cd swingbench/
+   38  sudo su -
+   39  cd /opt
+   40  ll
+   41  sudo mkdir -p /opt/oracle
+   42  cd oracle/
+   43  ll
+   44  pwd
+   45  cd /tmp
+   46  ll
+   47  unzip -t instantclient-basic-linux.x64-21.4.0.0.0dbru.zip 
+   48  cd /opt
+   49  ll
+   50  cd /tmp
+   51  cd /opt/oracle/
+   52  sudo unzip -oq /tmp/instantclient-basic-linux.x64-21.4.0.0.0dbru.zip 
+   53  ll
+   54  sudo apt update
+   55  sudo apt upgrade -y
+   56  sudo apt install libaio1 -y
+   57  man ldconfig
+   58  sudo sh -c "echo /opt/oracle/instantclient_21_4 > /etc/ld.so.conf.d/oracle-instantclient.conf"
+   59  sudo ldconfig
+   60  sudo su -
+   61  sudo apt install xorg-x11-apps -y
+   62  sudo apt search xorg
+   63  sudo apt install -y xorg xinit
+   64  sudo su -
+   65  export DISPLAY=192.168.1.2:0.0
+   66  xclock
+   67  cd
+   68  cd swingbench/
+   69  ll
+   70  cd bin/
+   71  ll
+   72  ./oewizard
+   73  sudo nano /etc/hosts
+   74  ./oewizard
+   75  systemctl stop firewalld
+   76  sudo systemctl stop firewalld
+   77  sudo systemctl stop iptables
+   78  telnet 192.168.1.4 1521
+   79  ./oewizard
+   80  ./oewizard &
+   81  ps -ef|grep java
+   82  telnet 192.168.1.4 1521
+   83  export DISPLAY=192.168.1.2:0.0
+   84  cd swingbench/bin/
+   85  ./oewizard &
+   86  ll
+   87  ./swingbench &
+   88  top
+   89  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -val
+   90  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+   91  ./oewizard -h
+   92  /oewizard -v -cl -drop -cs dgsrv01:1521/pdb1 -dba "sys as sysdba" -dbap oracle 
+   93  ./oewizard -v -cl -drop -cs dgsrv01:1521/pdb1 -dba "sys as sysdba" -dbap oracle 
+   94  ./oewizard -h
+   95  nohup ./oewizard -v -cl -create -cs dgsrv01:1521/pdb1 -u soe -p soe -bs 5000 -scale 1 -tc 8 -dba "sys as sysdba" -dbap oracle -ts soe -df /u02/oradata/CDB1/pdb1/swingbench01.dbf &
+   96  ll
+   97  tail -10000f nohup.out 
+   98  top
+   99  exit
+  100  cd swingbench/bin/
+  101  ls -ltr
+  102  view nohup.out 
+  103  strings nohup.out 
+  104  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+  105  ./swingbench &
+  106  top
+  107  ./swingbench &
+  108  top
+  109  kill -9 2251
+  110  top
+  111  ./swingbench &
+  112  ping dgsrv01
+  113  top
+  114  kill -9 2360
+  115  ./swingbench &
+  116  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+  117  top
+  118  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+  119  top
+  120  kill -9 2442
+  121  visudo
+  122  sudo visudo
+  123  id
+  124  sudo vi /etc/hosts
+  125  ip a
+  126  sudo vi /etc/hosts
+  127  sudo reboot
+  128  lsnrctl start
+  129  ll
+  130  cd swingbench/
+  131  ll
+  132  history 
+  133  export DISPLAY=192.168.15.5:0.0
+  134  telnet 192.168.15.46 1521
+  135  ./oewizard -h
+  136  ll
+  137  cd bin/
+  138  ./oewizard -h
+  139  history 
+  140  ./oewizard &
+  141  killkill
+  142  kill -9 57901
+  143  ll
+  144  export DISPLAY=192.168.15.17:0.0
+  145  cd swingbench/bin/
+  146  export DISPLAY=192.168.15.17:0.0
+  147  ./oewizard &
+  148  xclock
+  149  ./oewizard -h
+  150  ./oewizard -s -cs //192.168.15.46:1521/pdb1 -create -dba "sys as sysdba" -dbap oracle -ts SOE_DATA -df /u02/oradata/CDB1/pdb1/soe_data01.dbf -tc 4 -allindexes -u soe -p soe -v -normalfile -nopart -scale 3 -cl
+  151  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+  152  export DISPLAY=192.168.15.5:0.0
+  153  ll
+  154  cd swingbench/
+  155  ll
+  156  cd bin/
+  157  ll
+  158  ./swingbench &
+  159  ll
+  160  kill -9 63414 62935
+  161  ./swingbench &
+  162  exit
+  163  top
+  164  ll
+  165  cd swingbench/log/
+  166  ll
+  167  cd ..
+  168  ll
+  169  top
+  170  export DISPLAY=192.168.15.5:0.0
+  171  ./swingbench &
+  172  cd swingbench/bin/
+  173  ./swingbench &
+  174  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+  175  ./sbutil -soe -cs dgsrv02:1521/pdb1 -soe -u soe -p soe -tables
+  176  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+  177  ist
+  178  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+  179  ll
+  180  history 
+  181  ll
+  182  nohup ./oewizard -s -cs //192.168.15.46:1521/pdb1 -create -dba "sys as sysdba" -dbap oracle -ts SOE_DATA -df /u02/oradata/CDB1/pdb1/soe_data01.dbf -tc 4 -allindexes -u soe -p soe -v -bigfile -nopart -scale 3 -cl &
+  183  tail -1000f nohup.out
+  184  ps -ef|grep oew
+  185  kill -9 114898
+  186  ll
+  187  rm -rf nohup.out 
+  188  ./oewizard -h
+  189  java --version
+  190  cd
+  191  ll
+  192  mv swingbench swingbench.bkp.20230525
+  193  wget https://www.dominicgiles.com/site_downloads/swingbenchlatest.zip
+  194  ll
+  195  unzip -t swingbenchlatest.zip
+  196  unzip swingbenchlatest.zip
+  197  ll
+  198  cd swingbench/bin/
+  199  ll
+  200  ./oewizard -h
+  201  nohup ./oewizard -s -cs //192.168.15.46:1521/pdb1 -create -dba "sys as sysdba" -dbap oracle -ts SOE_DATA -df /u02/oradata/CDB1/pdb1/soe_data01.dbf -its SOE_INDEX -idf /u02/oradata/CDB1/pdb1/soe_index01.dbf -tc 4 -allindexes -u soe -p soe -v -bigfile -nopart -scale 3 -cl &
+  202  rm -rf nohup.out 
+  203  tail -1000f nohup.out
+  204  kill -9 120961
+  205  ll
+  206  nohup ./oewizard -s -cs //192.168.15.46:1521/pdb1 -create -dba "sys as sysdba" -dbap oracle -ts SOE_DATA -df /u02/oradata/CDB1/pdb1/soe_data01.dbf -its SOE_INDEX -idf /u02/oradata/CDB1/pdb1/soe_index01.dbf -tc 4 -allindexes -u soe -p soe -v -bigfile -nopart -scale 3 -cl &
+  207  tail -1000f nohup.out
+  208  ll
+  209  tail -1000f nohup.out
+  210  ll
+  211  top
+  212  tail -1000f nohup.out
+  213  top
+  214  tail -1000f nohup.out
+  215  kill -9 121297
+  216  ll
+  217  ps -ef|grep oew
+  218  kill -9 114900 120963 121305
+  219  ps -ef|grep oew
+  220  kill -9 114920 121025 121356
+  221  ps -ef|grep oew
+  222  ll
+  223  rm -rf nohup.out 
+  224  nohup ./oewizard -s -cs //192.168.15.46:1521/pdb1 -create -dba "sys as sysdba" -dbap oracle -ts SOE_DATA -df /u02/oradata/CDB1/pdb1/soe_data01.dbf -its SOE_INDEX -idf /u02/oradata/CDB1/pdb1/soe_index01.dbf -tc 4 -allindexes -u soe -p soe -v -bigfile -nopart -scale 3 -cl &
+  225  tail -1000f nohup.out
+  226  cd swingbench/bin/
+  227  ll
+  228  view nohup.out
+  229  rm -rf nohup.out
+  230  nohup ./oewizard -s -cs //192.168.15.46:1521/pdb1 -create -dba "sys as sysdba" -dbap oracle -ts SOE_DATA -df /u02/oradata/CDB1/pdb1/soe_data01.dbf -its SOE_INDEX -idf /u02/oradata/CDB1/pdb1/soe_index01.dbf -tc 4 -allindexes -u soe -p soe -v -bigfile -nopart -scale 3 -cl &
+  231  tail -1000f nohup.out
+  232  history 
+  233  ./oewizard -h
+  234  ./oewizard -version
+  235  history 
+  236  ll
+  237  rm -rf nohup.out
+  238  nohup ./oewizard -s -cs //192.168.15.46:1521/pdb1 -create -dba "sys as sysdba" -dbap oracle -ts SOE_DATA -df /u02/oradata/CDB1/pdb1/soe_data01.dbf -its SOE_INDEX -idf /u02/oradata/CDB1/pdb1/soe_index01.dbf -tc 4 -allindexes -u soe -p soe -v -bigfile -nopart -scale 3 -cl &
+  239  tail -1000f nohup.out
+  240  top
+  241  ip a
+  242  sudo apt update
+  243  sudo apt upgrade
+  244  sudo init 0
+  245  history 
+  246  ll
+  247  cd swingbench/bin/
+  248  ll
+  249  ./sbutil -soe -cs dgsrv01:1521/pdb1 -soe -u soe -p soe -tables
+  250  cd /etc/
+  251  ll
+  252  ip a
+  253  cat /etc/passwd
+  254  history 
+  255  sudo su -
+  256  docker
+  257  sudo snap -h
+  258  sudo snap help --all
+  259  sudo snap refresh
+  260  sudo snap install docker
+  261  docker
+  262  df -H
+  263  sudo vgdisplay
+  264  sudo lvextend --size +62.99G --resizefs /dev/mapper/ubuntu--vg-ubuntu--lv
+  265  df -H
+  266  python -m venv VirtualEnv
+  267  python3 -m venv VirtualEnv
+  268  apt install python3.10-venv
+  269  sudo apt install python3.10-venv
+  270  python3 -m venv VirtualEnv
+  271  ll
+  272  cd VirtualEnv/
+  273  ll
+  274  source ./bin/activate
+  275  cd
+  276  ll
+  277  pip install matplotlib numpy pylzma ipykernel jupyter
+  278  sudo apt-get install git gcc g++ pkg-config libssl-dev libdbus-1-dev      libglib2.0-dev libavahi-client-dev ninja-build python3-venv python3-dev      python3-pip unzip libgirepository1.0-dev libcairo2-dev libreadline-dev
+  279  pip install matplotlib numpy pylzma ipykernel jupyter
+  280  pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+  281  python3 --version
+  282  whereis python3
+  283  cd /home/oracle/VirtualEnv/bin
+  284  ll
+  285  python
+  286  cd
+  287  mkdir -p course/fcc-llm
+  288  cd course/fcc-llm/
+  289  ll
+  290  jupyter notebook
+  291  jupyter notebook --ip='0.0.0.0' --port 8888 --no-browser &
+  292  python -m ipykernel install --user --name=VirtualEnv
+  293  jupyter notebook --ip='0.0.0.0' --port 8888 --no-browser &
+  294  python -m ipykernel install --user --name=VirtualEnv --display-name="LLM-VirtualEnv"
+  295  jupyter notebook --ip='0.0.0.0' --port 8888 --no-browser &
+  296  cd course/fcc-llm/
+  297  git clone git@github.com:jorgedonatodba/fcc-intro-to-llms.git
+  298  vi bigram.ipynb
+  299  vi torch-examples.ipynb
+  300  cd course/fcc-llm/
+  301  ll
+  302  ps -ef|grep notebook
+  303  jupyter notebook --ip='0.0.0.0' --port 8888 --no-browser &
+  304  cd
+  305  cd VirtualEnv/bin/
+  306  source ./activate
+  307  cd
+  308  jupyter notebook --ip='0.0.0.0' --port 8888 --no-browser &
+  309  history 
+  310  docker
+  311  top
+  312  docker volume create mysql_vol
+  313  usermod -Ga docker $USER
+  314  usermod -G -a docker $USER
+  315  usermod -aG docker $USER
+  316  usermod -a -G docker $USER
+  317  groupadd docker
+  318  sudo groupadd docker
+  319  sudo usermod -a -G docker $USER
+  320  docker volume create mysql_vol
+  321  sudo chmod 777 /var/run/docker.sock
+  322  docker volume create mysql_vol
+  323  docker volume delete mysql_vol
+  324  docker volume rm mysql_vol
+  325  docker volume create mysql_etc_vol
+  326  docker volume create mysql_lib_vol
+  327  docker run --name mysql8044 -v mysql_etc_vol:/etc/mysql -v mysql_lib_vol:/var/lib/mysql --user 1000:1000 -e MYSQL_ROOT_PASSWORD=qq -d mysql:8.0.44-oraclelinux9 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+  328  docker exec -it mysql8044 /bin/bash
+  329  docker ps -a
+  330  docker exec -it mysql8044 /bin/bash
+  331  docker rm -f mysql8044
+  332  docker run --name mysql8044 -v mysql_etc_vol:/etc/mysql -v mysql_lib_vol:/var/lib/mysql  -e MYSQL_ROOT_PASSWORD=qq -d mysql:8.0.44-oraclelinux9 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+  333  docker exec -it mysql8044 /bin/bash
+  334  docker rm -f mysql8044
+  335  docker run --name mysql8044 -v mysql_etc_vol:/etc/mysql -v mysql_lib_vol:/var/lib/mysql -p 0.0.0.0:3306:3306 -e MYSQL_ROOT_PASSWORD=qq -d mysql:8.0.44-oraclelinux9 --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+  336  sudo iptables -L
+  337  sudo iptables -A INPUT -p tcp --dport 3306 -j ACCEPT
+  338  docker image ls
+  339  history 
+  340  ll
+  341  docker ps -a
+  342  ll
+  343  cd course/
+  344  ll
+  345  history 
+  346  docker scout
+  347  docker --help
+  348  dokcer info
+  349  docker info
+  350  terraform
+  351  sudo iptables -A INPUT -p icmp  -j ACCEPT
+  352  sudo iptables -L
+  353  top
+  354  sudo hostnamectl set-hostname docker02
+  355  top
+  356  docker ps -a
+  357  docker images
+  358  cd ~/.ssh/
+  359  ll
+  360  ssh-keygen -t ed25519 -C "jorge.donatolive.com"
+  361  ll
+  362  cat id_ed25519.pub
+  363  cd
+  364  ll
+  365  cd course/
+  366  ll
+  367  cd
+  368  cd ll
+  369  pwd
+  370  mkdir Workspace
+  371  cd Workspace/
+  372  ll
+  373  mkdir linuxtips
+  374  cd linuxtips/
+  375  ll
+  376  git clone git@github.com:jorgedonatodba/pick2026.git
+  377  cd ..
+  378  mkdir devopspro
+  379  cd devopspro/
+  380  git clone git@github.com:jorgedonatodba/devopspro-modulo-terraform.git
+  381  sudo snap search zsh
+  382  sudo apt search zsh
+  383  sudo apt install zsh -y
+  384  sudo apt update
+  385  sudo apt update zsh 
+  386  sudo apt upgrade zsh
+  387  ls
+  388  git clone git@github.com:jorgedonatodba/devopspro-modulo-aws.git
+  389  ls
+  390  cd /home/oracle/Workspace/linuxtips/pick2026/Day3/giropops-senhas
+  391  ll
+  392  docker image build -t destroless:1.0 -f ./Dockerfile-chainguard .
+  393  docker images
+  394  docker container run -p 80:5000 --name destroless01 destroless:1.0
+  395  docker container rm destroless01
+  396  docker container run -d -p 80:5000 --name destroless01 destroless:1.0
+  397  ll
+  398  docker images
+  399  docker volume ls
+  400  docker network ls
+  401  cd
+  402  sudo apt update
+  403  sudo snap search terraform
+  404  sudo snap install terraform --classic -y
+  405  sudo snap install terraform --classic 
+  406  sudo snap search aws
+  407  sudo snap install aws-cli --classic
+  408  aws
+  409  aws configure
+  410  aws list
+  411  aws help
+  412  aws s3 list
+  413  cd /home/oracle/Workspace/devopspro/devopspro-modulo-aws
+  414  terraform init
+  415  terraform fmt
+  416  terraform validate
+  417  terraform plan
+  418  terraform apply
+  419  terraform plan
+  420  terraform apply
+  421  terraform destroy
+  422  terraform apply
+  423  terraform fmt
+  424  terraform validate
+  425  terraform plan
+  426  terraform apply
+  427  terraform destroy
+  428  terraform fmt
+  429  terraform plan
+  430  terraform validate
+  431  terraform apply
+  432  terraform fmt
+  433  terraform validate
+  434  terraform fmt
+  435  terraform plan
+  436  terraform apply
+  437  terraform fmt
+  438  terraform validate
+  439  docker pull redis:8.6-alpine3.23
+  440  docker container run -p 6379:6379 --name redis redis:8.6-alpine3.23
+  441  docker container run -d -p 6379:6379 --name redis redis:8.6-alpine3.23
+  442  docker ps
+  443  docker container run -d -p 6379:6379 --name redis redis:8.6-alpine3.23
+  444  docker container rm redis
+  445  docker container run -d -p 6379:6379 --name redis redis:8.6-alpine3.23
+  446  scp -p /home/oracle/.ssh/id_ed25519 ubuntu@54.224.71.39:/home/ubuntu/.ssh/ -i ~/.ssh/id_ed25519 
+  447  cd /home/oracle/.ssh
+  448  scp -p id_ed25519 ubuntu@54.224.71.39:/home/ubuntu/.ssh/ -i ~/.ssh/id_ed25519 
+  449  man scp
+  450  scp -i ~/.ssh/id_ed25519 -p id_ed25519 ubuntu@54.224.71.39:/home/ubuntu/.ssh/
+  451  ssh -i ~/.ssh/id_ed25519 ubuntu@54.224.71.39
+  452  ssh -i ~/.ssh/id_ed25519 ubuntu@54.165.70.178
+  453  cd ~/Workspace/devopspro
+  454  ll
+  455  cd devopspro-modulo-terraform/
+  456  git status
+  457  git logs
+  458  git log
+  459  ssh -i ~/.ssh/id_ed25519 ubuntu@18.234.176.165
+  460  ssh -i ~/.ssh/id_ed25519 ubuntu@54.224.71.39
+  461  ssh -i ~/.ssh/id_ed25519 ubuntu@54.165.70.178
+  462  cd /home/oracle/Workspace/devopspro/devopspro-modulo-aws
+  463  ll
+  464  cd .ssh/
+  465  ll
+  466  cd /home/oracle/Workspace/devopspro/devopspro-modulo-aws
+  467  terraform apply
+  468  terraform fmt
+  469  terraform plan
+  470  terraform validate
+  471  terraform apply
+  472  terraform fmt
+  473  terraform validate
+  474  terraform plan
+  475  terraform apply
+  476  terraform fmt
+  477  terraform validate
+  478  terraform fmt
+  479  terraform validate
+  480  terraform apply
+  481  terraform fmt
+  482  terraform validate
+  483  terraform apply
+  484  terraform fmt
+  485  terraform validate
+  486  terraform apply
+  487  terraform fmt
+  488  terraform apply
+  489  history 
+  490  terraform apply
+  491  terraform destroy
+  492  git status
+  493  ls -ltrah
+  494  vi .gitignore
+  495  git add .gitignore 
+  496  git commit -m "adding .gitignore"
+  497  git config --global user.email "devops.europe@proton.me"
+  498  git config --global user.name "Donato"
+  499  git commit -m "adding .gitignore"
+  500  git push
+  501  git status
+  502  git add .
+  503  git commit -m "Ambiente para a demo rotten-potatoes da Formação DEVOPSPRO - Sem refatoração"
+  504  git push
+  505  history 
+  506  cd /home/oracle/Workspace/devopspro/devopspro-modulo-aws
+  507  ll
+  508  history > 20260222_history.txt
